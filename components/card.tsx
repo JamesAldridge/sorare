@@ -30,7 +30,7 @@ const PlayerCard = ({ card }) => {
       }
 
   return (
-    <Card sx={{ margin: '16px', maxWidth: 350, backgroundColor: rarityColor[card.rarity] }}>
+    <Card sx={{ color:'white', margin: '16px', width: 300, backgroundColor: rarityColor[card.rarity] }}>
       <CardContent>
       <Box
         sx={{
@@ -48,9 +48,9 @@ const PlayerCard = ({ card }) => {
         </Box>
         <Typography variant='subtitle2'>{card.player.activeClub.name}</Typography>
         </Box>
-        <CardMedia
+        <CardMedia sx={{objectFit: 'contain'}}
         component="img"
-        height="300"
+        height="350"
         image={card.player.pictureUrl}
         alt={card.player.name}
       />
