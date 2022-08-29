@@ -1,7 +1,6 @@
-import type { NextPage } from "next";
-import { Typography } from "../../node_modules/@mui/material/index";
+import { Typography } from "@mui/material";
 
-const CardsPage: NextPage = () => {
+const CardsPage = () => {
   return <Typography variant='h1'>Cards page</Typography>;
 };
 

@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import gql from "graphql-tag";
-import { useGQLQuery } from "../../hooks/useGLQuery.ts";
+import { useGQLQuery } from "../../hooks/useGLQuery";
 import { useRouter } from "next/router";
 import Card from "../../components/card";
 import { useState } from "react";
